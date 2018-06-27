@@ -71,7 +71,7 @@ __1. Cuáles crees que son los datos más importanteLa interfaz debe permitir al
     * Poder ordenar de manera ascendente y descendente a las estudiantes según
     porcentaje de completitud
 * Utiliza la interfaz sin problemas desde distintos tamaños de pantallas:
-  móviles, tablets, desktops
+  móviles, tablets, desktops 
 * Realizar pruebas unitarias
 
 
