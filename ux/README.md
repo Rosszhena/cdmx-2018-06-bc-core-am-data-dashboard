@@ -99,7 +99,8 @@ __3. Data proporcionada:__
 
 
 ### **Sketch:**
-![imagen](../imagenes/skeching1.jpeg) 
+![imagen](../imagenes/skeching1.jpeg)
+![imagen](../imagenes/skeching2.jpeg) ![imagen3](../imagenes/skeching3.jpeg)
 
 
 Prototipo en figma: (Adjuntar liga)
