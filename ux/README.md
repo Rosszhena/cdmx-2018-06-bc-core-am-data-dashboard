@@ -19,7 +19,7 @@ Algunos usuario si han tenido acceso a otra data dashboard y para ellos es muy a
 
 __Bamboohr__
 
-![Competencia](../imagenes/bamboohr.phg)
+![Competencia](../imagenes/bamboohr.png)
 
 __Objetivos de las usuarias:__
 sus obetivos es poder reducir el tiempo y tener una busqueda de cada estudiante aun mas eficiente y Planificar y ejecutar el programa de formación.
@@ -110,7 +110,7 @@ Despues de terminar nuestro Sketch pasamos a realizar nuestro prototipo dijital 
 recabados y pensando siempre en las necesidades del Usuario al igual que el sketch con forme alos test y el feedback recibido
 por nuestros usuarios vamos mejorando nuestra propuesta.
 
-En esta etapa utiliamos  Mockflow y creamos nuestra cuenta,tambien Invision,anexamos nuestra liga.
+En esta etapa utilizamos  Mockflow y creamos nuestra cuenta,Invision,anexamos nuestra liga.
 
 ![inicio](../imagenes/inicio.PNG)
 ![generaciones](../imagenes/generaciones.PNG)
@@ -118,7 +118,7 @@ En esta etapa utiliamos  Mockflow y creamos nuestra cuenta,tambien Invision,anex
 ![pantalla](../imagenes/pantalla a detalle.PNG)
 
 
-[PROTOTIPO](https://projects.invisionapp.com/d/main#/console/14731385/306312340/preview)
+[Liga de PROTOTIPO](https://projects.invisionapp.com/d/main#/console/14735976/306406470/preview)
 
 
 
@@ -129,4 +129,4 @@ __DISEÑO VISUAL__
 
 
 
-![COLORES](../imagenes/PALETA DE COLORES.png)
+![paleta de Colores](../paleta.png)
