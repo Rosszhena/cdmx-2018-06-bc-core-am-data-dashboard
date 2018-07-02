@@ -129,4 +129,4 @@ __DISEÑO VISUAL__
 
 
 
-![paleta de Colores](../paleta.png)
+![paleta de Colores](../imagenes/paleta.png)
