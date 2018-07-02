@@ -34,7 +34,7 @@ desesperacion ,suelen abrumarse y enojo ,frustracion.
 
 __Técnicas usadas en esta fase:__
 
- [Entrevistas]().
+ [Entrevistas](https://drive.google.com/drive/folders/1NGN5DL7N93bDsT0IKapJ2dGG7A-etu7q).
 
 __5. Objetivos del negocio:__
 
@@ -124,3 +124,9 @@ En esta etapa utiliamos  Mockflow y creamos nuestra cuenta,tambien Invision,anex
 
 ### **5. User testing**
 (Si deseas validar tu propuesta, acércate a tu usuario y que te de feedback con el fin de mejorar tu producto en beneficio del negocio y de tu usuarix).
+
+__DISEÑO VISUAL__
+
+
+
+![COLORES](../imagenes/PALETA DE COLORES.png)
