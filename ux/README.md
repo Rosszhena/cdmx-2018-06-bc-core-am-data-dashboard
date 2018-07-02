@@ -99,20 +99,18 @@ __3. Data proporcionada:__
 
 ### **Sketch:**
 A primera instancia esta fue la idea que primero se nos vino ala mente conforme paso el tiempo y con las entrevistas que realizamos nuestra idea fue cambiando y nuestros Sketchs fueron cambiando,en esta etapa solo utilizamos ,hojas y lapiz.
+
 ![imagen](../imagenes/skechingp.jpeg)
 ![imagen](../imagenes/skeching1.jpeg)
 ![imagen](../imagenes/skeching2.jpeg)
 
-
-Prototipo en invision: (Adjuntar liga)
-
 __Prototipo de alta fidelidad__
 
 Despues de terminar nuestro Sketch pasamos a realizar nuestro prototipo dijital  de alta fidelidad conforme a los datos
-recabados y pensando siempre en las necesidades del Usuario i gaul que el sketch con forme alos test y el feedback recibido
-vamos mejorando nuestra propuesta.
+recabados y pensando siempre en las necesidades del Usuario al igual que el sketch con forme alos test y el feedback recibido
+por nuestros usuarios vamos mejorando nuestra propuesta.
 
-En esta etapa utiliamos  Mockflow y creamos nuestra cuenta,y tambien Invision,anexamos nuestra liga.
+En esta etapa utiliamos  Mockflow y creamos nuestra cuenta,tambien Invision,anexamos nuestra liga.
 
 ![inicio](../imagenes/inicio.PNG)
 ![generaciones](../imagenes/generaciones.PNG)
@@ -120,7 +118,7 @@ En esta etapa utiliamos  Mockflow y creamos nuestra cuenta,y tambien Invision,an
 ![pantalla](../imagenes/pantalla a detalle.PNG)
 
 
-[prototipo](https://projects.invisionapp.com/d/main#/console/14731385/306312340/preview)
+[PROTOTIPO](https://projects.invisionapp.com/d/main#/console/14731385/306312340/preview)
 
 
 
