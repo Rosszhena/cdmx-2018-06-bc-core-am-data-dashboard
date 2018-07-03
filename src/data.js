@@ -11,6 +11,9 @@ traerlima: (sede,lugar) => {
     //console.log(data[sede].generacion)
         for(let lab in data[sede].generacion)
           lugar.innerHTML += "  "+lab +" - ";
+
+
+
   })
 },
 
