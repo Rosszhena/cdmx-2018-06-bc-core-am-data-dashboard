@@ -107,15 +107,14 @@ A primera instancia esta fue la idea que primero se nos vino ala mente conforme 
 __Prototipo de alta fidelidad__
 
 Despues de terminar nuestro Sketch pasamos a realizar nuestro prototipo dijital  de alta fidelidad conforme a los datos
-recabados y pensando siempre en las necesidades del Usuario al igual que el sketch con forme alos test y el feedback recibido
-por nuestros usuarios vamos mejorando nuestra propuesta.
+recabados y pensando siempre en las necesidades del Usuario al igual que el sketch conforme a los test y el feedback recibidopor nuestros usuarios vamos mejorando nuestra propuesta.
 
-En esta etapa utilizamos  Mockflow y creamos nuestra cuenta,Invision,anexamos nuestra liga.
+En esta etapa utilizamos  Mockflow,Invision,anexamos nuestra liga.
 
 ![inicio](../imagenes/inicio.PNG)
 ![generaciones](../imagenes/generaciones.PNG)
-![lista](../imagenes/lista de alumnas.PNG)
-![pantalla](../imagenes/pantalla a detalle.PNG)
+![lista](../imagenes/lista.PNG)
+![pantalla](../imagenes/pantalla.PNG)
 
 
 [Liga de PROTOTIPO](https://projects.invisionapp.com/d/main#/console/14735976/306406470/preview)
@@ -125,9 +124,8 @@ En esta etapa utilizamos  Mockflow y creamos nuestra cuenta,Invision,anexamos nu
 ### **5. User testing**
 (Si deseas validar tu propuesta, acércate a tu usuario y que te de feedback con el fin de mejorar tu producto en beneficio del negocio y de tu usuarix).
 
-__DISEÑO VISUAL__
 
-## **6.PALETA DE COLORES**
+## **6.DISEÑO VISUAL**
 
  Color; tiene un rol vital en diseño y la vida cotidiana puede atraer tu mirada a una imagen..evocar cierta sensacion
  o emocion ..incluso comunicar algo importante sin necesidad de palabras.Asi que,¿como sabemos que colores se ven bien juntosy cuales no?La respuesta es la teoria del color.Artistas y diseñadores han seguido la teoria del color,pero cualquier persona puede aprender.Puede ayudar a sentirse mas en confianza en diferentes situaciones ,ya sea escoger los colores para un diseño ,o combinar el atuendo perfecto.Todo lo que necesitamos es una orientacion y empezaras a mirar a los colores de manera distinta.
@@ -137,10 +135,14 @@ __DISEÑO VISUAL__
 
  Entonces,¿como juntamos todo esto para crear combinaciones de colores que se vean mas profesionales?todo lo que nesecitas es la rueda de color.La formula mas facil para la armonia de colores es la monocromatica por que solo usa un color o matiz.
 
- ![COLORES CALIDOS Y FRIOS](,,/imagenes/colorescalifrios3.jpg)
+ ![COLORES CALIDOS Y FRIOS](../imagenes/colorescalifrios3.jpg)
 
- Legibilidad es un factor importnte en cualquier diseño,tus colores deben ser legiblesy agradables a la vista,los colores neutrales como negro,blando y gris pueden ayudar a balancear tu diseño.Cada color emite un mensaje ,es importante considerar el tono de tu proyecto,y escoger una paleta de colores que encaje.Solo sigue experimentando.
+ Legibilidad es un factor importante en cualquier diseño,tus colores deben ser legibles y agradables a la vista,los colores neutrales como negro,blando y gris pueden ayudar a balancear tu diseño.Cada color emite un mensaje ,es importante considerar el tono de tu proyecto,y escoger una paleta de colores que encaje.Solo sigue experimentando.
 
+ nuestra paleta contiene colores calidos ,este tipo de tonos, además de la sensación térmica, transmiten cercanía, intimidad, energía, calidez y son utilizados en diseño gráfico para reflejar entusiasmo, pasión, alegría.
+
+ Por otro lado, los colores fríos son todos los colores que van desde el azul al verde pasando por los morados.
+ Cuanto más azul tenga un color, más frío será. Los colores fríos son los tonos del invierno, de la noche, de los mares y lagos En diseño, los colores fríos suelen usarse para dar sensación de tranquilidad, calma, seriedad y profesionalidad.
 
  Usamos amarillo como color principal, pero lo haremos más enérgico que antes. Además, agregaremos el magenta y el menta a nuestra identidad. Lo haremos sin volvernos muy “girly”, pues somos una organización que forma mujeres adultas y fuertes. Pueden entrar a nuestra web, y ver lo bien que se ven en este medio, donde siempre nos comunicamos con ustedes.
 
