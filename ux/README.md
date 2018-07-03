@@ -127,6 +127,21 @@ En esta etapa utilizamos  Mockflow y creamos nuestra cuenta,Invision,anexamos nu
 
 __DISEÑO VISUAL__
 
+## **6.PALETA DE COLORES**
 
+ Color; tiene un rol vital en diseño y la vida cotidiana puede atraer tu mirada a una imagen..evocar cierta sensacion
+ o emocion ..incluso comunicar algo importante sin necesidad de palabras.Asi que,¿como sabemos que colores se ven bien juntosy cuales no?La respuesta es la teoria del color.Artistas y diseñadores han seguido la teoria del color,pero cualquier persona puede aprender.Puede ayudar a sentirse mas en confianza en diferentes situaciones ,ya sea escoger los colores para un diseño ,o combinar el atuendo perfecto.Todo lo que necesitamos es una orientacion y empezaras a mirar a los colores de manera distinta.
+ Comencemos por el principio recondando lo basico ¿Recuerdas haber aprendido sobre colores primarios y secundarios en la escuela?entonces ya conoces algo sobre la teoria del color.
+
+ Rojo y amarillo forman naranja ;amarillo y azul forman verde ;y azul y rojo forman morado:si mezclamos estos colores entre si obtenemos mas matices entre colores,como rojo,anaranjado,amarillo y verde.Todos juntos forman lo que llamamos una [rueda de color](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF).Ahora vamos una paso mas adelante con el matiz la saturacion y el valor.estos son terminos que normalmente no te encuentras en tu vida cotidiana ,pero son las claves para comprender a los colores mas matizados ,el matizes el mas facil ;es basicamente solo otra palabra para el color.La saturacion hace referencia a la intensidad en otras palabra,si el color parece mas sutil o mas vibrante.El valor tiene que ver con cuan oscuro o claro es el color,variando de negro a blanco.
+
+ Entonces,¿como juntamos todo esto para crear combinaciones de colores que se vean mas profesionales?todo lo que nesecitas es la rueda de color.La formula mas facil para la armonia de colores es la monocromatica por que solo usa un color o matiz.
+
+ ![COLORES CALIDOS Y FRIOS](,,/imagenes/colorescalifrios3.jpg)
+
+ Legibilidad es un factor importnte en cualquier diseño,tus colores deben ser legiblesy agradables a la vista,los colores neutrales como negro,blando y gris pueden ayudar a balancear tu diseño.Cada color emite un mensaje ,es importante considerar el tono de tu proyecto,y escoger una paleta de colores que encaje.Solo sigue experimentando.
+
+
+ Usamos amarillo como color principal, pero lo haremos más enérgico que antes. Además, agregaremos el magenta y el menta a nuestra identidad. Lo haremos sin volvernos muy “girly”, pues somos una organización que forma mujeres adultas y fuertes. Pueden entrar a nuestra web, y ver lo bien que se ven en este medio, donde siempre nos comunicamos con ustedes.
 
 ![paleta de Colores](../imagenes/paleta.png)
