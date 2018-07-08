@@ -8,13 +8,14 @@ window.onload =  {
   console.log("hola");
   //traerlima: (sede,lugar) => {
   //contenido.innerHTML =`ddsgdhdhdfh`
-  fetch('../data/laboratoria.json')
+  fetch('https://raw.githubusercontent.com/yareh2/cdmx-2018-06-bc-core-am-data-dashboard/master/data/laboratoria.json')
   .then(res =>res.json())
   .then(data =>{
     //console.log(data[sede].generacion)
        let laboratoria = data
         for(let lab in data){
         //  navtheme.innerHTML += "  "+lab +" - ";
+        //Qué hace globalall?
         globalll = data;
         console.log(data)
            navtheme.innerHTML += '<a class="nav-link active" onclick="window.datadasbord.computeStudentsStats('+lab+')" href="#" id="'+lab+'">'+lab+'</a>'
