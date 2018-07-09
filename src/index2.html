@@ -12,13 +12,26 @@
     <div class="sidebar-header">
         <img src="images/logo.png" alt="">
     </div>
-    <form class="" action="index.html" method="post">
+    <form name=form action="index3.html">
       <h2>Login</h2>
 
-      <input type="text" placeholder="&#128272;usuario"name="usuario">
-      <input type="text" placeholder="&#128272;contraseña"name="clave">
-      <input type="sumit" value="ingresar">
+      <input type="text" placeholder="&#128272;usuario"name="usuario"id="usuario">
+      <input type="text" placeholder="&#128272;contraseña"name="clave"id="password">
+      <input type="submit" value="ingresar"id="boton"onclick="validar()">
 
     </form>
+    <script type="text/javascript">
+    function validar(){
+      let usuario=document.getElementById("usuario").value;
+      let contraseña=document.getElementById("password").value;
+      if(usuario=="laboratoria"&&contraseña=="12345")
+      alert("usuario y contraseña valido")
+    }
+    else
+    {
+      alert("Intenta nuevamente");
+    }
+
+    </script>
   </body>
 </html>
