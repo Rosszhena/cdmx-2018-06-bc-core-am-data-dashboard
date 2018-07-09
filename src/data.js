@@ -29,7 +29,7 @@ window.onload =  {
         //  navtheme.innerHTML += "  "+lab +" - ";
         globalDate = data;
         console.log(data)
-           navtheme.innerHTML += '<a class="nav-link active" onclick="window.datadasbord.computeStudentsStats('+lab+')" href="#" id="'+lab+'">'+lab+'</a>'
+          // navtheme.innerHTML += '<a class="nav-link active" onclick="window.datadasbord.computeStudentsStats('+lab+')" href="#" id="'+lab+'">'+lab+'</a>'
         }
   })
 }}
