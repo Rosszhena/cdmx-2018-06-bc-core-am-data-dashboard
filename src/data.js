@@ -1,8 +1,20 @@
-//const contLima = document.getElementById('lima')
-//const contMexico = document.getElementById('mexico')
-//const contSantiago = document.getElementById('santiago')
-//console.log("hola", lugar);
-let globalll;
+/*window.computeStudentsStats = () => {
+
+}
+
+window.computeGenerationsStats = () => {
+
+}
+
+window.sortStudents = () => {
+
+}
+window.filterStudents = () => {
+
+}
+
+*/
+let globalDate;
 window.onload =  {
   sssss: () =>{
   console.log("hola");
@@ -12,10 +24,10 @@ window.onload =  {
   .then(res =>res.json())
   .then(data =>{
     //console.log(data[sede].generacion)
-       let laboratoria = data
+      // let laboratoria = data
         for(let lab in data){
         //  navtheme.innerHTML += "  "+lab +" - ";
-        globalll = data;
+        globalDate = data;
         console.log(data)
            navtheme.innerHTML += '<a class="nav-link active" onclick="window.datadasbord.computeStudentsStats('+lab+')" href="#" id="'+lab+'">'+lab+'</a>'
         }
@@ -27,13 +39,13 @@ computeStudentsStats: (lab) => {
 
   navgeneration.innerHTML =" ";
   console.log("prueba" + lab.text);
-  for(let gene in globalll[lab.text].generacion){
-    console.log( globalll[lab.text].generacion);
+  for(let gene in globalDate[lab.text].generacion){
+    console.log( globalDate[lab.text].generacion);
     navgeneration.innerHTML += " \n "+gene +" ==== ";
-    console.log(globalll[lab.text].generacion[gene].estudiantes);
+    console.log(globalDate[lab.text].generacion[gene].estudiantes);
 
-      for(let estu in globalll[lab.text].generacion[gene].estudiantes){
-        navgeneration.innerHTML += globalll[lab.text].generacion[gene].estudiantes[estu].nombre +" - ";
+      for(let estu in globalDate[lab.text].generacion[gene].estudiantes){
+        navgeneration.innerHTML += globalDate[lab.text].generacion[gene].estudiantes[estu].nombre +" - ";
       }
 
 
