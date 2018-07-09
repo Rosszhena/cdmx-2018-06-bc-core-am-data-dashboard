@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+    <title>login</title>
+  </head>
+  <body>
+    <div class="sidebar-header">
+        <img src="images/logo.png" alt="">
+    </div>
+    <form name=form action="index3.html">
+      <h2>Login</h2>
+
+      <input type="text" placeholder="&#128272;usuario"name="usuario"id="usuario">
+      <input type="text" placeholder="&#128272;contraseña"name="clave"id="password">
+      <input type="submit" value="ingresar"id="boton"onclick="validar()">
+
+    </form>
+    <script type="text/javascript">
+    function validar(){
+      let usuario=document.getElementById("usuario").value;
+      let contraseña=document.getElementById("password").value;
+      if(usuario=="laboratoria"&&contraseña=="12345")
+      alert("usuario y contraseña valido")
+    }
+    else
+    {
+      alert("Intenta nuevamente");
+    }
+
+    </script>
+  </body>
+</html>
