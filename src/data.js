@@ -25,6 +25,7 @@ window.onload =  {
 
 window.datadasbord = {
 computeStudentsStats: (lab) => {
+  console.log(lab)
 
   navgeneration.innerHTML =" ";
   console.log("prueba" + lab.text);
