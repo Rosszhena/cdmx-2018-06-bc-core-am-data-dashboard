@@ -11,7 +11,7 @@ El celular es  indispensale ya sea en nuestra vida social o en nuestra area de t
 
 
 
-__Usuarixs:__
+__Usuarias:__
 
 Tener mejor accesibilidad encuanto a los datos y poder tener la informacion mas organizada ,reducir el tiempo de busqueda,no cuenta con una interfaz utilizan un programa basico que es Excel,no cuentan con un proceso establecido.Que pudiera tener un perfil en laboratoria para poder saber quienes son, su cargo, sus nombres.
 Les gustaria contar con una interfaz que se mucho mas eficiente, poder visualizar graficas pero solo si hay necesidad de usarlas pues prefieran algo sencillo y facil de usar.Comparten la informacion por Google Drive y Spreadsheets.
@@ -117,12 +117,7 @@ En esta etapa utilizamos  Mockflow,Invision,anexamos nuestra liga.
 ![pantalla](../imagenes/pantalla.PNG)
 
 
-[Liga de PROTOTIPO](https://projects.invisionapp.com/d/main#/console/14735976/306406470/preview)
-
-
-
-### **5. User testing**
-(Si deseas validar tu propuesta, acércate a tu usuario y que te de feedback con el fin de mejorar tu producto en beneficio del negocio y de tu usuarix).
+[Liga de PROTOTIPO](https://projects.invisionapp.com/share/MUMOAOOZENR#/screens/306406470_Inicio)
 
 
 ## **6.DISEÑO VISUAL**
