@@ -3,7 +3,7 @@ let globalDatos; // variable global con la data
 
 //Funcion de inicio para que cargue las sedes de manera dinamica
 window.onload =  {
-  sssss: () =>{
+  funcion: () =>{
   fetch('../data/laboratoria.json')
   .then(res =>res.json())
   .then(data =>{
@@ -13,14 +13,15 @@ window.onload =  {
         console.log(data)
         //impresión de sedes
            sedes.innerHTML +='<a class="nav-link"  onclick="window.computeGenerationsStats('+laboratoria+')" href="#" id="'+laboratoria+'"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg>'+laboratoria+'</a>'
-//alumnas.innerHTML +='<a class="nav-link"  onclick="window.computeStudentsStats('+laboratoria+')" href="#" id="'+laboratoria+'"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg>'+laboratoria+'</a>'
-          alumnas.innerHTML +='<a class="nav-link"  onclick="window.computeStudentsStats('+laboratoria+')" href="#" id="sssssss'+laboratoria+'"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></polyline></svg>'+laboratoria+'</a>'
+        //impresión de sedes para menú alumnas
+          alumnas.innerHTML +='<a class="nav-link"  onclick="window.computeStudentsStats('+laboratoria+')" href="#" id="1'+laboratoria+'"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></polyline></svg>'+laboratoria+'</a>'
         }
   })
 }}
 
 window.computeStudentsStats = (laboratoria) => {
   console.log(laboratoria);
+  navgeneration.innerHTML =" ";
   navgeneration2.innerHTML =" ";
   console.log("prueba" + laboratoria.text);
   for(let gene in globalDatos[laboratoria.text].generacion){
@@ -37,6 +38,7 @@ window.computeStudentsStats = (laboratoria) => {
 window.computeGenerationsStats = (laboratoria) => {
   console.log(laboratoria);
   navgeneration.innerHTML =" ";
+  navgeneration2.innerHTML =" ";
   console.log("prueba2" + laboratoria.text);
   for(let gene in globalDatos[laboratoria.text].generacion){
     console.log( globalDatos[laboratoria.text].generacion);
@@ -46,7 +48,7 @@ window.computeGenerationsStats = (laboratoria) => {
 
 }
 
-window.onload.sssss();
+window.onload.funcion();
 
 //window.datadasbord.computeStudentsStats();
 

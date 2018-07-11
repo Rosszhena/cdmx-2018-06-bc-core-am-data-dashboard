@@ -17,7 +17,7 @@
 
   <body>
     <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#" class="rounded-0" ><img src="logo.jpeg" class="img-thumbnail" ></a>
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#" class="rounded-0" ><img src="images/logo.jpeg" class="img-thumbnail" ></a>
       <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
@@ -31,21 +31,17 @@
           <nav class="col-md-2 d-none d-md-block bg-light sidebar">
             <div class="sidebar-sticky">
               <ul class="nav flex-column">
-                <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-                  <span>Sedes</span></h6>
+                <a class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted" href="index.html" ><span>Sedes</span></a>
                 <li class="nav-item" id="sedes">
                 </li>
 
-            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-              <span>Alumnas</span>
+            <a class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted" href="index.html"><span>Alumnas</span></a>
               <a class="d-flex align-items-center text-muted" href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle">></svg>
               </a>
-            </h6>
             <ul class="nav flex-column mb-2">
               <li class="nav-item" id="alumnas">
               </li>
-
             </ul>
           </div>
         </nav>
@@ -65,11 +61,37 @@
             </div>
           </div>
 
-          <canvas class="my-4 w-100 chartjs-render-monitor" id="myChart" width="544" height="229" style="display: block; width: 544px; height: 229px;"></canvas>
-          <nav class="nav flex-column" id="navgeneration">
+          <div class="card-group">
+            <div class="card" >
+              <img class="card-img-top" src="images/peru.png" alt="Card image cap" class="img-thumbnail"  >
+              <div class="card-body">
+                <h5 class="card-title">Lima</h5>
+                <p class="card-text" id="total-estud-lima">Total de Estudiantes:</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/mexico.png" alt="Card image cap" class="img-thumbnail">
+              <div class="card-body">
+                <h5 class="card-title">México</h5>
+                <p class="card-text">Total de Estudiantes:</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/chile.png" alt="Card image cap" class="img-thumbnail">
+              <div class="card-body">
+                <h5 class="card-title">Chile</h5>
+                <p class="card-text">Total de Estudiantes:</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+
+            <nav class="nav flex-column" id="navgeneration">
             </nav>
             <nav class="nav flex-column" id="navgeneration2">
-              </nav>
+            </nav>
           <h2>Section title</h2>
           <div class="table-responsive">
             <table class="table table-striped table-sm">
