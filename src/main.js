@@ -2,8 +2,13 @@
 const mexico = document.getElementById('mexico')
 const santiago = document.getElementById('santiago')
 
-*/const navgeneration = document.getElementById('navgeneration')
-const navtheme = document.getElementById('navtheme')
+*/
+const navgeneration = document.getElementById('navgeneration')
+const navgeneration2 = document.getElementById('navgeneration2')
+
+const navtheme = document.getElementById('sedes')
+
+const alumnas = document.getElementById('alumnas')
 
 
 /*addEventListener("click", event => {

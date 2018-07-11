@@ -4,38 +4,47 @@ let globalDatos; // variable global con la data
 //Funcion de inicio para que cargue las sedes de manera dinamica
 window.onload =  {
   sssss: () =>{
-  fetch('https://raw.githubusercontent.com/yareh2/cdmx-2018-06-bc-core-am-data-dashboard/master/data/laboratoria.json')
+  fetch('../data/laboratoria.json')
   .then(res =>res.json())
   .then(data =>{
     //console.log(data[sede].generacion)
-        for(let lab in data){
+        for(let laboratoria in data){
         globalDatos = data;
         console.log(data)
         //impresión de sedes
-           navtheme.innerHTML +='<a class="nav-link"  onclick="window.datadasbord.computeStudentsStats('+lab+')" href="#" id="'+lab+'"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg>'+lab+'</a>'
+           sedes.innerHTML +='<a class="nav-link"  onclick="window.computeGenerationsStats('+laboratoria+')" href="#" id="'+laboratoria+'"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg>'+laboratoria+'</a>'
+//alumnas.innerHTML +='<a class="nav-link"  onclick="window.computeStudentsStats('+laboratoria+')" href="#" id="'+laboratoria+'"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg>'+laboratoria+'</a>'
+          alumnas.innerHTML +='<a class="nav-link"  onclick="window.computeStudentsStats('+laboratoria+')" href="#" id="sssssss'+laboratoria+'"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></polyline></svg>'+laboratoria+'</a>'
         }
   })
 }}
 
-window.datadasbord = {
-computeStudentsStats: (lab) => {
+window.computeStudentsStats = (laboratoria) => {
+  console.log(laboratoria);
+  navgeneration2.innerHTML =" ";
+  console.log("prueba" + laboratoria.text);
+  for(let gene in globalDatos[laboratoria.text].generacion){
+    console.log( globalDatos[laboratoria.text].generacion);
+    navgeneration2.innerHTML += " \n "+gene +" ==== ";
+    //console.log(globalDatos[laboratoria.text].generacion[gene].estudiantes);
 
+    /*  for(let estu in globalDatos[laboratoria.text].generacion[gene].estudiantes){
+      navgeneration.innerHTML += globalDatos[laboratoria.text].generacion[gene].estudiantes[estu].nombre +" - ";
+    }*/
+  }
+}// Finaliza función computeStudentsStats
+
+window.computeGenerationsStats = (laboratoria) => {
+  console.log(laboratoria);
   navgeneration.innerHTML =" ";
-  console.log("prueba" + lab.text);
-  for(let gene in globalDatos[lab.text].generacion){
-    console.log( globalDatos[lab.text].generacion);
+  console.log("prueba2" + laboratoria.text);
+  for(let gene in globalDatos[laboratoria.text].generacion){
+    console.log( globalDatos[laboratoria.text].generacion);
     navgeneration.innerHTML += " \n "+gene +" ==== ";
-    console.log(globalDatos[lab.text].generacion[gene].estudiantes);
-
-      for(let estu in globalDatos[lab.text].generacion[gene].estudiantes){
-        navgeneration.innerHTML += globalDatos[lab.text].generacion[gene].estudiantes[estu].nombre +" - ";
-      }
-
 
   }
 
 }
-};
 
 window.onload.sssss();
 
