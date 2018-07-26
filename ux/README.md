@@ -10,7 +10,6 @@ Entrevistamos a los coach y Tm pues ellos son los que tienen mas interaccion con
 El celular es  indispensale ya sea en nuestra vida social o en nuestra area de trabajo.Tambien nos comentaron que la informacion que visualizan solo les sirve una sola vez y cada que entran a la data esta cambia y tienen que volver a realizar el trabajo algo que se les hace muy abrumador nos dimos cuenta que ellos utilizan tablas y a algunos les gustaria visualizar la informacion en graficas pues tiene que contar manualmente el numero de egresadas que existen en la data,tambien les gustaria que su informacion se visualizara en forma ascendente y desendente para asi tener aun mejor organizacion en du data.
 
 
-
 __Usuarias:__
 
 Tener mejor accesibilidad encuanto a los datos y poder tener la informacion mas organizada ,reducir el tiempo de busqueda,no cuenta con una interfaz utilizan un programa basico que es Excel,no cuentan con un proceso establecido.Que pudiera tener un perfil en laboratoria para poder saber quienes son, su cargo, sus nombres.
