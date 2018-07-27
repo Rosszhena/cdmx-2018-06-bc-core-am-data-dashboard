@@ -121,7 +121,7 @@ En esta etapa utilizamos  Mockflow,Invision,anexamos nuestra liga.
 
 ## **6.DISEÑO VISUAL**
 
- Color; tiene un rol vital en diseño y la vida cotidiana puede atraer tu mirada a una imagen..evocar cierta sensacion
+ 1. Color; tiene un rol vital en diseño y la vida cotidiana puede atraer tu mirada a una imagen..evocar cierta sensacion
  o emocion ..incluso comunicar algo importante sin necesidad de palabras.Asi que,¿como sabemos que colores se ven bien juntosy cuales no?La respuesta es la teoria del color.Artistas y diseñadores han seguido la teoria del color,pero cualquier persona puede aprender.Puede ayudar a sentirse mas en confianza en diferentes situaciones ,ya sea escoger los colores para un diseño ,o combinar el atuendo perfecto.Todo lo que necesitamos es una orientacion y empezaras a mirar a los colores de manera distinta.
  Comencemos por el principio recondando lo basico ¿Recuerdas haber aprendido sobre colores primarios y secundarios en la escuela?entonces ya conoces algo sobre la teoria del color.
 
@@ -141,3 +141,56 @@ En esta etapa utilizamos  Mockflow,Invision,anexamos nuestra liga.
  Usamos amarillo como color principal, pero lo haremos más enérgico que antes. Además, agregaremos el magenta y el menta a nuestra identidad. Lo haremos sin volvernos muy “girly”, pues somos una organización que forma mujeres adultas y fuertes. Pueden entrar a nuestra web, y ver lo bien que se ven en este medio, donde siempre nos comunicamos con ustedes.
 
 ![paleta de Colores](../imagenes/paleta.png)
+
+
+__Más uso de los corchetes en nuestra identidad__
+
+2. Los corchetes son nuestro principal símbolo. Los utilizamos en nuestro logo y los hacemos con nuestras manos cada vez que nos tomamos una foto :) Le dimos el reto a Sed de identificar cómo los podíamos usar más, para enriquecer nuestra identidad visual. Ellos trajeron una propuesta que nos encantó, enfocada en utilizarlos como el símbolo del progreso y la transformación que sucede en Laboratoria. Por eso nos verán utilizando mucho esta combinación de 3 corchetes que parecen ir moviéndose hacia adelante.
+
+![Corchetes](../imagenes/corchetes-laboratoria.png)
+
+__Corchetes como símbolo de progreso__
+
+3. Nueva tipografía
+Otro cosa que decidimos cambiar fue nuestra tipografía, buscando que fuese contundente al expresarnos por escrito, pero liviana al leer. Escogimos una “Bitter” para nuestros títulos y una “Open sans” para los textos. Las dos son Google Fonts fáciles de leer, que nos serán útiles para comunicar todo lo que queremos contar en nuestra web y en otros medios.
+
+![Tipografia](../imagenes/tipografia-laboratoria.png)
+
+__Nuevos fonts de Laboratoria__
+
+4. Nuevo “Slogan”
+Finalmente, también decidimos cambiar nuestro slogan, de “código que transforma” a “talento que transforma”. Este cambio dará algo de nostalgia, pues sabemos que muchas alumnas de Laboratoria aman el slogan actual. Sin embargo, es por ellas mismas que hacemos el cambio, pues no es el “código” lo que transforma; son ellas mismas las que transforman. Ellas, con sus ganas y su perseverancia transforman su vida en Laboratoria. Luego, al entrar a trabajar al mundo tech, transforman toda una industria, haciéndola más diversa, inclusiva e innovadora.
+
+![Logo](../imagenes/1_LlEcDJBiw9-jFYMyJbRK9Q.png)
+
+## **7.Instalacion y uso**
+
+Nuestro DataDashboard es una herramienta que pudes utilizar en cualquier hora y lugar con diferentes dispositivos y asi poder falcilitarte el uso de informacion.
+Solo tienes que ingresar a la [pagina](file:///D:/lety/LABORATORIA_2018/sprint2/cdmx-2018-06-bc-core-am-data-dashboard/src/index.html)
+
+ 1. Te registras
+ 2. Despues ingresas
+ 3. Te lleva a la pagina principal
+    ahi encontraras:
+    sedes;  en esta vienen las tres sedes existentes
+
+    * -Lima
+    * -Mexico
+    * -Santiago
+
+  4. Seleccionas la sede que deseas ,esta te desplegara Generaciones
+     Generaciones;contiene
+
+    * -Tercera
+    * -Cuarta
+    * -Quinta
+
+  5. Escoges un de estas y te despliegara
+
+     * Promedio de la generación
+     * estudiantes debajo del 60 en su porcentaje de completitud
+     * estudiantes con 90 o más en su porcentaje de completitud
+     * Poder filtrar estudiantes por estos dos status
+     * Filtrar y poder buscar estudiantes por nombre
+     * Vas a poder ordenar de manera ascendente y descendente a las estudiantes según
+       porcentaje de completitud
