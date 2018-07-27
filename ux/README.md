@@ -156,10 +156,9 @@ Otro cosa que decidimos cambiar fue nuestra tipografía, buscando que fuese cont
 
 ![Tipografia](../imagenes/tipografia-laboratoria.png)
 
-__Nuevos fonts de Laboratoria__
+__Nuevo “Slogan”__
 
-4. Nuevo “Slogan”
-Finalmente, también decidimos cambiar nuestro slogan, de “código que transforma” a “talento que transforma”. Este cambio dará algo de nostalgia, pues sabemos que muchas alumnas de Laboratoria aman el slogan actual. Sin embargo, es por ellas mismas que hacemos el cambio, pues no es el “código” lo que transforma; son ellas mismas las que transforman. Ellas, con sus ganas y su perseverancia transforman su vida en Laboratoria. Luego, al entrar a trabajar al mundo tech, transforman toda una industria, haciéndola más diversa, inclusiva e innovadora.
+4. Finalmente, también decidimos cambiar nuestro slogan, de “código que transforma” a “talento que transforma”. Este cambio dará algo de nostalgia, pues sabemos que muchas alumnas de Laboratoria aman el slogan actual. Sin embargo, es por ellas mismas que hacemos el cambio, pues no es el “código” lo que transforma; son ellas mismas las que transforman. Ellas, con sus ganas y su perseverancia transforman su vida en Laboratoria. Luego, al entrar a trabajar al mundo tech, transforman toda una industria, haciéndola más diversa, inclusiva e innovadora.
 
 ![Logo](../imagenes/1_LlEcDJBiw9-jFYMyJbRK9Q.png)
 
