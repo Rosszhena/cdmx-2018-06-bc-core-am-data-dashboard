@@ -81,11 +81,11 @@ window.onload = () =>{
       const filteredStudentsByGeneration = filteredStudentsByCampus.filter((student) => {
         return student.generation === gen;
       })
-     // console.log(filteredStudentsByGeneration)
-    const containerGen2 = document.getElementById(`gen-${campus}`);
-     let templateGeneration2 = ``;
-     filteredStudentsByCampus.forEach((gen) => {
-     console.log(gen)
+      console.log(filteredStudentsByGeneration)
+      const containerGen2 = document.getElementById(`gen-${campus}`);
+      let templateGeneration2 = ``;
+      filteredStudentsByCampus.forEach((gen) => {
+    
          templateGeneration2 += `<a class="nav-link generacion"  href="#" id="'+item+'">${gen.name}</a>`
          containerGen2.innerHTML= templateGeneration2   
         // listenersGen(generations, students)            
