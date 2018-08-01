@@ -1,114 +1,26 @@
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <!--etiqueta para que nuestro sitio web sea compatible con celulares y tablets-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title> DataDashboard </title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="dashboard.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <title>Datadashbord Proyecto2</title>
   </head>
-
   <body>
-    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#" class="rounded-0" ><img src="images/logo.jpeg" class="img-thumbnail" ></a>
-      <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
-      <ul class="navbar-nav px-3">
-        <li class="nav-item text-nowrap">
-          <a class="nav-link" href="#"></a>
-        </li>
-      </ul>
-    </nav>
-
-    <div class="container-fluid">
-        <div class="row">
-          <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-            <div class="sidebar-sticky">
-              <ul class="nav flex-column">
-                <a class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted" href="index.html" ><span>Sedes</span></a>
-                <li class="nav-item" id="sedes">
-                </li>
-
-            <a class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted" href="index.html"><span>Alumnas</span></a>
-              <a class="d-flex align-items-center text-muted" href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle">></svg>
-              </a>
-            <ul class="nav flex-column mb-2">
-              <li class="nav-item" id="alumnas">
-                <li class="nav-item" id="alumnas-gene">
-                </li>
-              </li>
-            </ul>
-          </div>
-        </nav>
-
-        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4"><div class="chartjs-size-monitor" style="position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
-          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom" id="subtitulo">
-            <h1 class="h2">Sedes Laboratoria</h1>
-          </div>
-
-          <div class="card-group" >
-            <div class="card" id="generaciones">
-              <img class="card-img-top" src="images/peru.png" alt="Card image cap" class="img-thumbnail"  >
-              <div class="card-body">
-                <h5 class="card-title">Lima</h5>
-                <p class="card-text" id="total-estud-lima">Total de Estudiantes: 41</p>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="images/mexico.png" alt="Card image cap" class="img-thumbnail">
-              <div class="card-body">
-                <h5 class="card-title" >México</h5>
-                <p class="card-text" id="total-estud-mexico" >Total de Estudiantes: 42</p>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="images/chile.png" alt="Card image cap" class="img-thumbnail">
-              <div class="card-body">
-                <h5 class="card-title">Santiago</h5>
-                <p class="card-text" id="total-estud-santiago">Total de Estudiantes:42</p>
-              </div>
-            </div>
-          </div>
-
-            <nav class="nav flex-column" id="navgeneration">
-            </nav>
-            <nav class="nav flex-column" id="navgeneration2">
-            </nav>
-            <div id="alumn">
-          <h2>Alumnas</h2>
-          <div class="table-responsive">
-            <table class="table table-striped table-sm" id="mitabla">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Nombre</th>
-                  <th>Correo</th>
-                  <th>Progreso</th>
-
-                </tr>
-              </thead>
-              <tbody>
-
-              </tbody>
-            </table>
-          </div>
-        </div>
-        </main>
-      </div>
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="data.js"></script>
- <script src="main.js"></script>
-</body>
-</html>
+    <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Laboratoria</a>
+  </li>
+</ul>
+<div class="container my-5 text-center">
+<nav class="nav flex-column" id="lugar" >
+   <nav class="nav flex-column" id="generacion">
+   </nav>
+</nav>
+  </div>
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+  </body>
+  </html>
